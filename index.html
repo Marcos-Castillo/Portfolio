@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="" />
+
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <div class="contenedor">
+    <div class="container">
         <!-- barra flotante -->
         <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
@@ -37,28 +38,7 @@
             </div>
             <div class="col-lg-6"></div>
         </header>
-        <!--carrusel-->
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+
         <!-- about me -->
         <article class="fila">
             <hr>
@@ -70,7 +50,7 @@
             </p>
         </article>
         <!-- habilidades -->
-        <article class="fila">
+        <article >
             <hr>
             <h2 id="Habilidades">Habilidades</h2>
             <h3>Front-End:</h3>
@@ -86,9 +66,40 @@
                 • Soft-skills: Comunicación, trabajo en equipo,
                 adaptabilidad, aprendizaje
             </p>
-        </article>
+        </article class="row">
         <!-- porfolio -->
-        <article class="fila">
+
+                <!--card-->
+                <div class="d-flex">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/practica.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Primera pagina</h5>
+                      <p class="card-text">Primera pagina usando html y css.</p>
+                      <a href="https://marcos-castillo.github.io/practica-html/" class="btn btn-primary">Ir a Pagina</a>
+                    </div>
+                </div>
+     <!--card-->
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/codigoSecreto.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Encriptador</h5>
+                      <p class="card-text">Encriptador de texto simple usando html css y JavaScript.</p>
+                      <a href="https://marcos-castillo.github.io/Oracle-ONE---encriptador/" class="btn btn-primary">Ir a Pagina</a>
+                    </div>
+                  </div>
+                       <!--card-->
+                  <div class="card" style="width: 18rem;">
+                    <img src="/img/ahorcadp.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Juego del ahorcado</h5>
+                      <p class="card-text">Juego del ahorcado usando html css y JavaScript.</p>
+                      <a href="https://marcos-castillo.github.io/Oracle-ONE---ahorcado/" class="btn btn-primary">Ir a Pagina</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- porfolio -->
+        <article class="row">
             <hr>
             <h2 id="Proyectos">Proyectos</h2>
             <p>
@@ -114,7 +125,7 @@
         </p>
     </article>
     <!-- contacto -->
-    <section class="fila">
+    <section class="row">
         <hr>
         <h2 id="Contacto">Contacto</h2>
         >
@@ -131,8 +142,10 @@
     <footer class="fila">
         ©| Copyright 2021 todos los derechos reservados |
     </footer>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
 </div>
+<!-- JavaScript Bundle with Popper -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
