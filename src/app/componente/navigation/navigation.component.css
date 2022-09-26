@@ -1,0 +1,9 @@
+
+
+.bg-fix{
+    
+    background:  url(/src/assets/imgs/header.jpg) no-repeat scroll 50% 0%;
+    background-color: black;
+    height: 55px;
+
+}
