@@ -5,6 +5,7 @@ import { PortfolioComponent } from './portfolio.component';
 describe('PortfolioComponent', () => {
   let component: PortfolioComponent;
   let fixture: ComponentFixture<PortfolioComponent>;
+  
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
